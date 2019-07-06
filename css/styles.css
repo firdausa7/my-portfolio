@@ -1,28 +1,16 @@
 h1{
-    color: red;
-    text-align: center;
-}
-#img{
-    text-align: center;
-    border-radius: 50%
+    color:black;
+    text-align: left;
+    font-size: 200%;
 }
 h2{
-    color: blue;
-}
-h3{
-    color: blue;
-}
-h4{
-    color: blue;
-}
-h5{
-    color: blue;
-}
-a{
-    color: rgb(160, 187, 221);
+    font-size: 300%;
 }
 body{
-    background-image: url('me.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; 
+    background-image: url("firdausa.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%
+}  
+p{
+    background-color: azure;
 }
