@@ -1,5 +1,5 @@
 # my-portfolio
-web portfolio showcasing my work
+my name is Firdausa salat and this is my web portfolio showcasing my work.
 ## about me
 ### lists of projects i have done
 1. [Hotel English point](https://github.com/firdausa7/hotel-english-point)
@@ -12,5 +12,5 @@ web portfolio showcasing my work
 * Aga khan academy
 ##### hobbies and interest
 ###### skills
-######## licence
-this portfolio is licenced by MIT
+### License
+this portfolio is licensed by MIT
