@@ -10,3 +10,7 @@ web portfolio showcasing my work
 * 2010-2014 University of Nairobi
 * 2006-2009 Coast girls high school
 * Aga khan academy
+##### hobbies and interest
+###### skills
+######## licence
+this portfolio is licenced by MIT
