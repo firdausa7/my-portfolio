@@ -1,6 +1,7 @@
 h1{
-    color:white;
+    color-adjust:white;
     text-align: center;
+    font-size: 50px
 }
 body{
     background-image: url("sunset.jpg");
@@ -36,6 +37,14 @@ h3{
 .list{
     color:lightblue;
     background: cover;
+}
+/* ol{
+    font-size: 20px;
+    color: grey
+} */
+a:link{
+    font-size: 24px;
+    color: white;
 }
 ol li a{
     text-decoration-style: dotted;
