@@ -23,9 +23,6 @@ h2{
      /* background-color:gray; */
      color: white;
  }
- .image{
-     
- }
  img{
      height: 500px;
      width: 500px;
@@ -40,17 +37,8 @@ h3{
     color:lightblue;
     background: cover;
 }
-/* ol{
-    font-size: 20px;
-    color: grey
-} */
-a:link{
-    font-size: 24px;
-    color: white;
-}
 ol li a{
     text-decoration-style: dotted;
     color: aqua;
     size: 25px;
-
 }
