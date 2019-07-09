@@ -6,7 +6,7 @@ h1{
 body{
     background-image: url("firdausa.jpeg");
     background-repeat: no-repeat;
-    background-size: 105%
+    background-size: 105%;
 } 
 h2{
     font-size: 200%;
@@ -24,5 +24,9 @@ h6{
     font-size: 200%;
 }
  div{
-     font-size: 100%
+     font-size: 100%;
+     display: block;
+ }
+ p{
+     font-size: 100%;
  }
