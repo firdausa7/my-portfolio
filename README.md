@@ -10,10 +10,10 @@ this is portfolio describing more about me and work i have done.
 <img src="css/Screenshot1.png">
 
 ## Setup and Installation
-* open terminal
+* Open terminal {Ctrl + Alt + T}
 * git clone: https://github.com/firdausa7/my-portfolio.git
-* edit portfolio
-* edit atom or code
+* Cd my-portfolio
+* Code . or Atom . (Depending on the editor you have)
 
 ## Link to live page
 (https://firdausa7.github.io/my-portfolio)
