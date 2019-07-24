@@ -1,53 +1,167 @@
-h1{
-    color-adjust:white;
-    text-align: center;
-    font-size: 50px
+html{
+    scroll-behavior: smooth;    
 }
 body{
-    background-image: url("sunset.jpg");
-    background-repeat: no-repeat;
-    background: cover;
-    background-size: 130%;
-} 
-h2{
-    text-align: left;
-    font-size: 50px;
+    margin: 0;
+    padding: 0;
 }
- div{
-     font-size: 100%;
-     display: block;
- }
- p{
-     font-size: 20px;
- }
- .about{
-     /* background-color:gray; */
-     color: white;
- }
- img{
-     height: 500px;
-     width: 500px;
-    float: right;
-     border-radius: 100%;
- }
-h3{
-    color: azure;
-    font-size: 50px
+*{
+    margin-top: 0;
+}
+
+.landing{
+    background-image: url("../css/paris.jpg");
+    height: 680px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    height: 680px;
+    background-color: rgba(0, 0,0, 0.5);
+}
+h2{
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
+}
+h1{
+    font-family: 'Abel', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+
+}
+hr{
+    margin-top: -30px;
+    height: 4px;
+    width: 400px;
+    border: none;
+    background-color: white;
+}
+h1, h2, hr, .buttons{
+    position: relative;
+    top:200px;
+}
+button  {
+    height:40px;
+    width:100px;
+    margin-top: 30px;
+    margin: 5px;
+    background-color: #66000000;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 251, 0);
+}
+.buttons{   
+    display: flex;
+    margin: 0 37%;
+}
+img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    margin: 1% 35% 2% 37%;
+    box-shadow: 2px 5px 5px #4a4e69;    
+}
+#figcaption{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    
+
+}
+.about-me{
+    text-align: center;
+    background-color: lightsteelblue;
+    height: 250px;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.education{
+   display: flex;
+   /* flex-direction: column; */
+   justify-content: space-around;
+   font-family: 'Darker Grotesque', sans-serif;
+
+}
+.skills{
+    background-color: lightsteelblue;
+    height:200px;
+    text-align: center;
+}
+.backgr{
+    font-size: 40px;
+}
+li{
+    font-size: 30px;
+
 }
 .list{
-    color:lightblue;
-    background: cover;
+    font-size: 15px;
 }
-/* ol{
-    font-size: 20px;
-    color: grey
-} */
-a:link{
-    font-size: 24px;
+.work{
+    display: flex;
+    justify-content: start;
+    padding-top: 20px;
+}
+.work a > img{
+margin-right:20px;
+}
+.work a > img:last-child{
+    margin-left: 80px;
+}
+.skill{
+    font-size: 35px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.skill1{
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+.last{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+
+}
+.caption{
+    display: flex;
+    justify-content: space-around;
+
+}
+.caption figcaption{
+        font-size: 35px;
+        font-family: 'Shadows Into Light', cursive;
+
+}
+.contacts{
+    text-align: center;
+    background-color: #4a4e69;
+    height: 200px;
+}
+.get-in-touch{
+    font-size: 50px;
+    color: beige;
+    font-family: 'Oxygen', sans-serif;
+
+}
+.mail{
+    font-size: 25px;
     color: white;
 }
-ol li a{
-    text-decoration-style: dotted;
-    color: aqua;
-    size: 25px;
+.mail a{
+    color: azure;
 }
